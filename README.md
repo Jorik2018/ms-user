@@ -22,7 +22,7 @@ Content-Type: application/json
     }
   ]
 }
-
+```
 <h3>Diagrama de clases</h3>
 
 ![Diagrama de clases](ms-user.drawio.png)
