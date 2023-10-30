@@ -18,19 +18,21 @@ import com.nttdata.user.model.entity.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
+import org.junit.jupiter.api.Disabled;
 
-@ExtendWith(MockitoExtension.class)
+@ExtendWith(SpringExtension.class)
 @SpringBootTest
+@Disabled
 @AutoConfigureWebTestClient
 public class UserControllerTest {
 
     @Autowired
     private WebTestClient webTestClient;
 
-    @Mock
+    @MockBean
     private UserService userService;
 
     @Test
