@@ -23,6 +23,6 @@ Content-Type: application/json
   ]
 }
 
-
+<!-- Separate section for the image -->
 
 ![Diagrama de clases](ms-user.drawio.png)
